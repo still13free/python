@@ -27,24 +27,25 @@ print("Time is: {hours}:{minutes:2}:{seconds:2}".format(hours=h, minutes=m, seco
 
 # 3. Узнайте у пользователя число n. Найдите сумму чисел n + nn + nnn.
 
-number = input("Enter number: ")
-sum = int(number) + int(number+number) + int(number+number+number)
-print("sum = ", sum)
+number = input("Enter number 'n': ")
+sum_n = int(number) + int(number + number) + int(number + number + number)
+print("n + nn + nnn =", sum_n)
 
 # 4. Пользователь вводит целое положительное число. Найдите самую большую цифру в числе.
 # Для решения используйте цикл while и арифметические операции.
 
 number = int(input("Enter positive integer number: "))
-max = 0
+max_digit = 0
 while True:
-    q = number // 10 #частное целочисленного деления на 10
-    r = number % 10 #остаток от деления на 10
-    if r > max:
-        max = r
+    q = number // 10  # частное целочисленного деления на 10
+    r = number % 10  # остаток от деления на 10
+    if r > max_digit:
+        max_digit = r
     if q > 0:
         number = q
-    else: break
-print(max)
+    else:
+        break
+print("Largest digit in number is", max_digit)
 
 # 5. Запросите у пользователя значения выручки и издержек фирмы.
 # Определите, с каким финансовым результатом работает фирма
@@ -58,16 +59,16 @@ expenses = float(input("Enter expenses: "))
 fin_result = proceeds - expenses
 if fin_result > 0:
     print("The firm works in profit!")
-    print("Profitability of proceeds: {:.2f}".format(proceeds / expenses))
-    count = int(input("Enter the number of employees: "))
+    print("Profitability of proceeds: {:.2f}".format(fin_result / proceeds))
+    count = int(input("Enter number of employees: "))
     print("Firm profit per employee: {:.2f}".format(fin_result / count))
 else:
     print("The firm is operating at a loss!")
 
-#6. Спортсмен занимается ежедневными пробежками. В первый день его результат составил a километров.
+# 6. Спортсмен занимается ежедневными пробежками. В первый день его результат составил 'a' километров.
 # Каждый день спортсмен увеличивал результат на 10 % относительно предыдущего.
-# Требуется определить номер дня, на который общий результат спортсмена составить не менее b километров.
-# Программа должна принимать значения параметров a и b и выводить одно натуральное число — номер дня.
+# Требуется определить номер дня, на который общий результат спортсмена составить не менее 'b' километров.
+# Программа должна принимать значения параметров 'a' и 'b' и выводить одно натуральное число — номер дня.
 
 a = float(input("Enter first day result, 'a': "))
 b = float(input("Enter final day result, 'b': "))
