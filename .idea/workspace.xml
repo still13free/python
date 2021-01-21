@@ -28,8 +28,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1nNOSAYCHL9uJZQqmgbCJfmXJYA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Python.practice_2_ext">
@@ -82,7 +88,15 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37dd8c5a-515f-4361-b7bd-4044a15a6bb0" name="Default Changelist" comment="" />
+      <created>1611227082709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611227082709</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,27 +109,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611156823510">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="588" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1611156823510" />
-    <state width="1658" height="267" key="GridCell.Tab.0.bottom" timestamp="1611159210585">
+    <state width="1658" height="267" key="GridCell.Tab.0.bottom" timestamp="1611228482095">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1611159210585" />
-    <state width="1658" height="267" key="GridCell.Tab.0.center" timestamp="1611159210584">
+    <state width="1658" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1611228482095" />
+    <state width="1658" height="267" key="GridCell.Tab.0.center" timestamp="1611228482095">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="267" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1611159210584" />
-    <state width="1658" height="267" key="GridCell.Tab.0.left" timestamp="1611159210584">
+    <state width="1658" height="267" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1611228482095" />
+    <state width="1658" height="267" key="GridCell.Tab.0.left" timestamp="1611228482094">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="267" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1611159210584" />
-    <state width="1658" height="267" key="GridCell.Tab.0.right" timestamp="1611159210584">
+    <state width="1658" height="267" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1611228482094" />
+    <state width="1658" height="267" key="GridCell.Tab.0.right" timestamp="1611228482095">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1658" height="267" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1611159210584" />
+    <state width="1658" height="267" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1611228482095" />
   </component>
 </project>

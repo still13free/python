@@ -6,12 +6,13 @@
 # Необходимо собрать аналитику о товарах. Реализовать словарь, в котором каждый ключ — характеристика товара,
 # например название, а значение — список значений-характеристик, например список названий товаров.
 
+print("_____________Data structure «Products»_____________")
+print("_________{Enter 'e' to enter new product}__________")
+print("_________{Enter 'a' to analyze products}___________")
+print("_{Leave the field blank and press 'Enter' to exit}_")
 list_6 = list()
 i = 0
 while True:
-    print("Enter 'e' to enter new product")
-    print("Enter 'a' to analyze products")
-    print("Leave the field blank and press 'Enter' to exit")
     user_action = input(">")
     if user_action == '':
         break
