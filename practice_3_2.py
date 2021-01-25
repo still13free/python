@@ -14,5 +14,5 @@ my_user(
     year=1996,
     city='Ekaterinburg',
     email='ae96.ekat@mail.ru',
-    #phone=83430000000
+    #phone=83432666666
 )

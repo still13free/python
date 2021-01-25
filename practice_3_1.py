@@ -4,12 +4,11 @@
 def my_division(var1, var2):
     try:
         result = var1 / var2
-        print(f"{var1} / {var2} = {result}")
+        return f"{var1} / {var2} = {result}"
     except ZeroDivisionError:
-        print("Fault! You've tried divide by zero!")
-    return None
+        return "Fault! You've tried divide by zero!"
 
 
-a1 = int(input("Enter dividend:"))
-b1 = int(input("Enter quotient:"))
-my_division(a1, b1)
+a = int(input("Enter dividend:"))
+b = int(input("Enter divider:"))
+print(my_division(a, b))
