@@ -1,0 +1,4 @@
+Math: 70(l) 120(pr) —
+Informatics: 100(l) 50(pr) 20(lab)
+Physics: 30(l) — 10(lab)
+Sports: — 30(pr) —
